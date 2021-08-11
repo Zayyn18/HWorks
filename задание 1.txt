@@ -1,0 +1,12 @@
+a=input()
+b=input()
+c=input()
+if a>b and a<c or a<b and a>c:
+    print('a не среднее число')
+elif b>a and b<c or b<a and b>c:
+	print('c по середине')
+else:
+    print('a не лежит между b и с')
+
+
+	
