@@ -1,0 +1,21 @@
+cntt = 'p'
+while cntt == 'p':   
+  print('введите 0 чтобы остановить программу')
+  n1 = float(input('введите число '))
+  if n1 == 0:
+   break
+  z=input('введите знак ')
+  n2=float(input('введите второе число '))
+  if z == '+':
+    print(n1+n2)
+    print()
+  elif z == '-':
+    print(n1-n2)
+    print()
+  elif z =='/':
+    print(n1/n2)
+    print()
+  elif z =='*':
+    print(n1*n2)
+  else:
+    print('ошибка')
